@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-    baseURL : 'http://192.168.43.31:3333',
+    baseURL : 'http://localhost:3333',
 });
 /* se voce estiver rodando sua aplicação no celular, coloque o ip da sua maquina na rede (ver no expo) sem a porta.
 * se estiver com emulador do ios, pode usar localhost
